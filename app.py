@@ -3,7 +3,7 @@ import pickle
 
 model = pickle.load(open("spam_model.pkl", "rb"))
 
-st.title("📩 Spam Message Classifier")
+st.title("📩 Spam Email Message Classifier")
 
 message = st.text_area("Enter your message")
 
